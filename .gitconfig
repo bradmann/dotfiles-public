@@ -1,7 +1,6 @@
 [user]
 	name = Brad Mann
-	email = bradmann@gmail.com@gmail.com
-	signingKey = 8B060F8B9EB395614A669F2A90ACE942EB90C3DD
+	email = bradmann@gmail.com
 [diff]
 	tool = meld
 [merge]
