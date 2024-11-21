@@ -38,7 +38,7 @@ fi
 clone_repo dotfiles-public
 clone_repo dotfiles-private
 
-if [[ "$GITHUB_USERNAME" != romkatv ]]; then
-  git --git-dir="$HOME"/.dotfiles-public \
-    remote add upstream 'https://github.com/romkatv/dotfiles-public.git'
-fi
+# if [[ "$GITHUB_USERNAME" != romkatv ]]; then
+#   git --git-dir="$HOME"/.dotfiles-public \
+#     remote add upstream 'https://github.com/romkatv/dotfiles-public.git'
+# fi
