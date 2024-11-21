@@ -52,12 +52,12 @@ fi
 
 rm -rf ~/.cache
 
-sudo apt-get update
-sudo sh -c 'DEBIAN_FRONTEND=noninteractive apt-get -o DPkg::options::="--force-confdef" -o DPkg::options::="--force-confold" upgrade -y'
-sudo apt-get autoremove -y
-sudo apt-get autoclean
+# sudo apt-get update
+# sudo sh -c 'DEBIAN_FRONTEND=noninteractive apt-get -o DPkg::options::="--force-confdef" -o DPkg::options::="--force-confold" upgrade -y'
+# sudo apt-get autoremove -y
+# sudo apt-get autoclean
 
-sudo apt-get install -y curl git zsh
+# sudo apt-get install -y curl git zsh
 sudo chsh -s /bin/zsh "$USER"
 
 tmpdir="$(mktemp -d)"
